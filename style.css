@@ -6,22 +6,6 @@
   top: 0;
   z-index: 999;
 }
-.header .info {
-  padding: 10px;
-  display: flex;
-  justify-content: space-around;
-  color: #000;
-  background-color: #fff;
-}
-.header .info .informacoes {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-weight: 400;
-}
-.header .info .informacoes i {
-  color: #13AAE1;
-}
 .header .header__all {
   margin: 0 auto;
   max-width: 1200px;
@@ -31,7 +15,7 @@
   justify-content: space-between;
 }
 .header .header__all-first {
-  margin: 20px 30px;
+  margin: 20px 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -39,6 +23,16 @@
 .header .header__all-first .menu {
   display: flex;
   align-items: center;
+  gap: 20px;
+}
+.header .header__all-first .menu .infos {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-weight: 200;
+  gap: 5px;
+  margin: 0 30px;
+  font-size: 0.8rem;
 }
 .header .header__all-first #menu-icon {
   display: none;
@@ -66,6 +60,7 @@
 }
 .header .header__all-first .header__all-second ul li {
   text-align: center;
+  align-self: center;
 }
 .header .header__all-first .header__all-second ul li a {
   padding: 5px;
@@ -200,22 +195,8 @@ main .carousel-slide img {
     height: 180px;
     position: relative;
   }
-  .header .info {
+  .header .infos {
     display: none;
-    padding: 0px;
-    display: flex;
-    justify-content: space-around;
-    color: #000;
-    background-color: #fff;
-  }
-  .header .info .informacoes {
-    display: none;
-    align-items: center;
-    gap: 10px;
-    font-weight: 500;
-  }
-  .header .info .informacoes i {
-    color: #13AAE1;
   }
   .header .header__all {
     padding: 1rem;
@@ -408,22 +389,8 @@ main .carousel-slide img {
     height: 180px;
     position: relative;
   }
-  .header .info {
+  .header .infos {
     display: none;
-    padding: 0px;
-    display: flex;
-    justify-content: space-around;
-    color: #000;
-    background-color: #fff;
-  }
-  .header .info .informacoes {
-    display: none;
-    align-items: center;
-    gap: 10px;
-    font-weight: 500;
-  }
-  .header .info .informacoes i {
-    color: #13AAE1;
   }
   .header .header__all {
     padding: 1rem;
@@ -629,22 +596,8 @@ main .carousel-slide img {
     height: 180px;
     position: relative;
   }
-  .header .info {
+  .header .infos {
     display: none;
-    padding: 0px;
-    display: flex;
-    justify-content: space-around;
-    color: #000;
-    background-color: #fff;
-  }
-  .header .info .informacoes {
-    display: none;
-    align-items: center;
-    gap: 10px;
-    font-weight: 500;
-  }
-  .header .info .informacoes i {
-    color: #13AAE1;
   }
   .header .header__all {
     padding: 1rem;
@@ -1534,6 +1487,14 @@ main .carousel-slide img {
   font-size: 1.2rem;
   color: #fff;
   font-weight: 400;
+}
+#footer .footer__content .footer__logo .susep__all {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+#footer .footer__content .footer__logo .susep__all #susep {
+  width: 100px;
 }
 #footer .footer__content .footer__logo .icons {
   display: flex;
